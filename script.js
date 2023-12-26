@@ -4,7 +4,7 @@ function firstWord(s) {
 		return s;
 	const trimstr = s.trim();
 	const index = trimstr.indexOf(' ');
-	return s.substring(0,index+1);
+	return trimstr.substring(0,index+1);
 }
 
 // Do not change the code below
